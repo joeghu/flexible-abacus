@@ -46,10 +46,10 @@ def Tick(cart, outTray, inTray):
     
     if extracted[9,3] == 0 and dev == True:
         print("could read 0")
-        input()
+        
     if extracted[9,3] == 1 and dev == True:
         print("could read 1")
-        input()
+        
 
     if extracted[0, 1] < 64: extracted = Processor(cart, extracted)
     elif extracted[0, 1] < 128: cart = Flipper(cart, extracted)
@@ -427,16 +427,7 @@ for g in range(gens):
 
 input()     
 
-#
-#
-#
-#
-#
-#GRID    
-#prob	add1	add2	add3	add4	mod	aMP	mwnx	outmod	outa	oam
-#type	add1	add2	add3	add4	mod	aMP	0	outmod	outa	oam
-#ink	vf1	vf2	vf3	vf4	0	oPV	lf0	lf1	lf2	lf3
-#bounce	vw1	vw2	vw3	vw4	0	0	0	0	lread	lwrite
+
         
 
     

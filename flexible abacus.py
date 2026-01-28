@@ -367,7 +367,7 @@ print("Left unedited, it will attempt to estimate approximate square roots.")
 
 print("")
 
-print("Press any key to continue.")
+print("Press Enter to continue.")
 input()
 
 existingScoresToday = []
@@ -431,4 +431,5 @@ input()
         
 
     
+
 
